@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name              网盘直链下载助手
+// @name              网盘直链下载助手(改)
 // @namespace         https://github.com/syhyz1990/baiduyun
 // @version           6.1.5
 // @author            YouXiaoHou
@@ -1165,7 +1165,7 @@
             pan = JSON.parse(base.d(res));
             Object.freeze && Object.freeze(pan);
             pan.num === base.getValue('setting_init_code') ||
-            pan.license === base.getValue('license') ? this.addButton() : this.addInitButton();
+            pan.license === base.getValue('license') ? this.addButton() : this.addButton();
             base.createTip();
             base.registerMenuCommand();
         }
@@ -1495,7 +1495,7 @@
             pan = JSON.parse(base.d(res));
             Object.freeze && Object.freeze(pan);
             pan.num === base.getValue('setting_init_code') ||
-            pan.license === base.getValue('license') ? this.addButton() : this.addInitButton();
+            pan.license === base.getValue('license') ? this.addButton() : this.addButton();
             base.createTip();
             base.registerMenuCommand();
         }
@@ -1814,7 +1814,7 @@
             pan = JSON.parse(base.d(res));
             Object.freeze && Object.freeze(pan);
             pan.num === base.getValue('setting_init_code') ||
-            pan.license === base.getValue('license') ? this.addButton() : this.addInitButton();
+            pan.license === base.getValue('license') ? this.addButton() : this.addButton();
             this.getToken();
             base.createTip();
             base.registerMenuCommand();
@@ -2045,7 +2045,7 @@
                     let alink = this.convertLinkToBC(dlink, filename, navigator.userAgent);
                     content += `<div class="pl-item">
                                 <div class="pl-item-name listener-tip" data-size="${size}">${filename}</div>
-                                <a class="pl-item-link" href="${decodeURIComponent(alink)}" title="点击用比特彗星下载" data-filename="${filename}" data-link="${alink}">${decodeURIComponent(alink)}</a> 
+                                <a class="pl-item-link" href="${decodeURIComponent(alink)}" title="点击用比特彗星下载" data-filename="${filename}" data-link="${alink}">${decodeURIComponent(alink)}</a>
                                 <div class="pl-item-btn listener-link-bc-btn" data-dlink="${dlink}">复制镜像地址</div>
                                 </div>`;
                 }
@@ -2145,7 +2145,7 @@
             pan = JSON.parse(base.d(res));
             Object.freeze && Object.freeze(pan);
             pan.num === base.getValue('setting_init_code') ||
-            pan.license === base.getValue('license') ? this.addButton() : this.addInitButton();
+            pan.license === base.getValue('license') ? this.addButton() : this.addButton();
             base.createTip();
             base.registerMenuCommand();
         }
@@ -2176,7 +2176,7 @@
                 await base.sleep(150);
                 if ($('.quark-button').length > 0) return;
                 pan.num === base.getValue('setting_init_code') ||
-                pan.license === base.getValue('license') ? this.addButton() : this.addInitButton();
+                pan.license === base.getValue('license') ? this.addButton() : this.addButton();
             });
             doc.on('click', '.pl-button-mode', (e) => {
                 mode = e.target.dataset.mode;
@@ -2433,7 +2433,7 @@
             pan = JSON.parse(base.d(res));
             Object.freeze && Object.freeze(pan);
             pan.num === base.getValue('setting_init_code') ||
-            pan.license === base.getValue('license') ? this.addButton() : this.addInitButton();
+            pan.license === base.getValue('license') ? this.addButton() : this.addButton();
             this.addPageListener();
             base.createTip();
             base.createDownloadIframe();
@@ -2814,7 +2814,7 @@
             pan = JSON.parse(base.d(res));
             Object.freeze && Object.freeze(pan);
             pan.num === base.getValue('setting_init_code') ||
-            pan.license === base.getValue('license') ? this.addButton() : this.addInitButton();
+            pan.license === base.getValue('license') ? this.addButton() : this.addButton();
             base.createTip();
             base.registerMenuCommand();
         }
