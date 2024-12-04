@@ -7,7 +7,7 @@
 // @license           AGPL-3.0-or-later
 // @homepage          https://www.youxiaohou.com/install.html
 // @supportURL        https://github.com/syhyz1990/baiduyun
-// @updateURL         https://www.youxiaohou.com/panlinker.user.js
+// @updateURL         https://github.com/wuhuchaoren/baiduyun/raw/master/panlinker.user.js
 // @downloadURL       https://www.youxiaohou.com/panlinker.user.js
 // @match             *://pan.baidu.com/disk/home*
 // @match             *://yun.baidu.com/disk/home*
