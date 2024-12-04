@@ -8,7 +8,7 @@
 // @homepage          https://www.youxiaohou.com/install.html
 // @supportURL        https://github.com/syhyz1990/baiduyun
 // @updateURL         https://github.com/wuhuchaoren/baiduyun/raw/master/panlinker.user.js
-// @downloadURL       https://www.youxiaohou.com/panlinker.user.js
+// @downloadURL       https://github.com/wuhuchaoren/baiduyun/raw/master/panlinker.user.js
 // @match             *://pan.baidu.com/disk/home*
 // @match             *://yun.baidu.com/disk/home*
 // @match             *://pan.baidu.com/disk/main*
